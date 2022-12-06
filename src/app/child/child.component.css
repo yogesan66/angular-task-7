@@ -1,0 +1,22 @@
+
+.output{
+  color:#008000
+}
+div{
+  border:1.3px solid rgb(140, 50, 214);
+  padding: 0 15px 15px 15px;
+  width:300px;
+}
+h2{
+  margin-bottom: 0;
+}
+button{
+  border:none;
+  padding:5px 10px;
+  border-radius: 3px;
+  background-color: rgb(252, 175, 33);
+  cursor: pointer;
+}
+button:hover{
+  outline:3px solid rgb(248, 213, 147);
+}

@@ -1,0 +1,23 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.output{
+  color:green;
+}
+
+button{
+  color:whitesmoke;
+  border:none;
+  padding:5px 10px;
+  border-radius: 3px;
+  background-color:rgb(52, 52, 253);
+  cursor: pointer;
+}
+div{
+  border:1.3px solid rgb(168, 88, 88);
+  padding:15px;
+}
+button:hover{
+  outline:3px solid rgb(175, 175, 252);
+}

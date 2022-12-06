@@ -1,0 +1,9 @@
+
+<div>
+  <h2>Parent Component</h2>
+  <button (click)="increment()">Send Chocolates to Child</button>
+  <p class="output">{{output_text}}</p>
+
+<app-child [parentdata]="result" (ChildEvent)="output_text=$event"></app-child>
+
+</div>
